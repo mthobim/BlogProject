@@ -1,24 +1,29 @@
 # Steps to Running a Django Project
 ## A. Setting up a new 
 	- projectCreating a new project
-1. create a container folder - mkdir
-	open the VS Code code . 
-	[git init]
-2. install djngo inside the folder 
-	(pipenv install django)
+1. create a container folder -
+    mkdir <name of dir>
+	open the VS Code
+    code . 
+    [git init]
+3. install djngo inside the folder 
+    (pipenv install django)
 	- should be able to see the Pipfile and Pipfile.lock
-3. Activate the virtual environment - (pipenv shell)
-4. Insode thje VS code press ctrl +p
+4. Activate the virtual environment -
+    (pipenv shell)
+5. Insode thje VS code
+    press ctrl +p
 	
  type the >pthon interpreter
  select the name of your folder
  
- *** type django-admin startproject BlogProject
+ 6. type django-admin startproject <BlogProject>
  *** move into this folder
- 5. Make the migrations- 
+    cd <>
+ 7. Make the migrations- 
  		first command (python manage.py makemigrations) - responsible for checklist
 		second command (python manage .py migrate) - responsible for ....establishing
-6. Creating the superuser account - so we are able to access the admin console (manage.py createsuperuser)
+8. Creating the superuser account - so we are able to access the admin console (manage.py createsuperuser)
 
  ## B. Opening an existing project
  1.  go to the containing folder 
